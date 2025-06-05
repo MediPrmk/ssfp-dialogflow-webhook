@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 
-app = Flask(__name__)
+app = Flask(__name_)
 
 def get_bplus_dosage(weight):
     try:
